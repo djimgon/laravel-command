@@ -19,3 +19,6 @@ php artisan db:seed - если указали в DatabaseSeeder модели, к
 
 # очистка таблицы
 php artisan migrate:refresh
+
+# активация админа через консольную команду
+php artisan user:verify mail@mail.ru - запрограммировать свою консольную программу
