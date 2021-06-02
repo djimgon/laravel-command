@@ -15,3 +15,4 @@ php artisan make:seeder UsersTableSeeder
 
 # как запустить Seeder
 php artisan db:seed --class=UsersTableSeeder
+php artisan db:seed - если указали в DatabaseSeeder модели, которые нужно заполнить
