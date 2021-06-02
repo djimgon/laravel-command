@@ -10,4 +10,8 @@ $users = User::factory()->count(3)->make();
 # Генерация фабрик
 php artisan make:factory PostFactory --model=Post
 
-# автоматическое добавление данных в таблицы Laravel
+# автоматическое добавление данных в таблицы Laravel, использование сидоров
+php artisan make:seeder UsersTableSeeder
+
+# как запустить Seeder
+php artisan db:seed --class=UsersTableSeeder
