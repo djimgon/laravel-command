@@ -1,6 +1,9 @@
 # sql удаление пользователей кроме админа
 DELETE FROM users WHERE id <> 1;
 
+# создание контроллера в каталоге
+php artisan make:controller Admin\\Hostings\\CategoryController
+
 # запуск php кода в консоли
 php artisan tinker
 
