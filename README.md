@@ -1,3 +1,8 @@
+# создание unit теста в катумной папке
+
+- php artisan make:test \\Entity/User/PhoneTest --unit
+
+
 # sql удаление пользователей кроме админа
 DELETE FROM users WHERE id <> 1;
 
